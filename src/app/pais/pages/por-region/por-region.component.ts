@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-por-region',
-  templateUrl: './por-region.component.html',
-  styleUrls: ['./por-region.component.css']
+  templateUrl: './por-region.component.html'
 })
-export class PorRegionComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class PorRegionComponent {
 
 }
